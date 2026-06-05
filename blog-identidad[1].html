@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cuando un niño se reconoce en un libro — Bambook</title>
+  <meta name="description" content="Por qué la identidad latinoamericana importa en los libros infantiles. Por Kattia Orellana, Editorial Bambook.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Caveat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --beige:#FEF7ED; --naranja:#E07A30; --cafe:#5C3317; --cafe-lt:#8B5E3C;
+      --crema:#FDF3E3; --texto:#3A2010;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Crimson Text', Georgia, serif; background: var(--beige); color: var(--texto); font-size: 1.1rem; line-height: 1.85; }
+
+    nav { position: sticky; top: 0; z-index: 100; padding: 14px 32px; display: flex; justify-content: space-between; align-items: center; background: rgba(254,247,237,0.97); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(224,122,48,0.15); }
+    .nav-logo { font-family: 'Playfair Display', serif; font-size: 1.4rem; font-weight: 900; color: var(--cafe); text-decoration: none; }
+    .nav-logo span { color: var(--naranja); }
+    .nav-back { font-family: 'Crimson Text', serif; font-size: 0.95rem; color: var(--cafe-lt); text-decoration: none; display: flex; align-items: center; gap: 6px; transition: color 0.2s; }
+    .nav-back:hover { color: var(--naranja); }
+
+    .hero-blog { background: linear-gradient(135deg, var(--crema), var(--beige)); padding: 64px 24px 48px; text-align: center; border-bottom: 1px solid rgba(224,122,48,0.12); }
+    .blog-tag { display: inline-block; font-family: 'Caveat', cursive; font-size: 1rem; color: var(--naranja); background: rgba(224,122,48,0.1); border: 1px solid rgba(224,122,48,0.25); padding: 4px 14px; border-radius: 100px; margin-bottom: 20px; }
+    .blog-titulo { font-family: 'Playfair Display', serif; font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 900; color: var(--cafe); line-height: 1.15; max-width: 680px; margin: 0 auto 20px; }
+    .blog-byline { font-family: 'Caveat', cursive; font-size: 1.1rem; color: var(--cafe-lt); }
+
+    .articulo { max-width: 680px; margin: 0 auto; padding: 56px 24px 80px; }
+    .articulo p { margin-bottom: 1.4em; }
+    .articulo h2 { font-family: 'Playfair Display', serif; font-size: 1.35rem; font-weight: 700; color: var(--cafe); margin: 2em 0 0.6em; }
+    .articulo ul { margin: 0.5em 0 1.4em 1.5em; }
+    .articulo ul li { margin-bottom: 0.4em; }
+    .articulo strong { color: var(--cafe); font-weight: 600; }
+    .articulo em { font-style: italic; color: var(--cafe-lt); }
+
+    .destacado { background: var(--crema); border-left: 4px solid var(--naranja); border-radius: 0 12px 12px 0; padding: 20px 24px; margin: 2em 0; font-style: italic; font-size: 1.05rem; color: var(--cafe); }
+
+    .cierre { background: var(--crema); border-radius: 16px; padding: 32px; margin: 2.5em 0; text-align: center; border: 1px solid rgba(224,122,48,0.15); }
+    .cierre p { margin-bottom: 0.6em; font-family: 'Playfair Display', serif; font-size: 1.05rem; font-weight: 700; color: var(--cafe); font-style: italic; }
+    .cierre p:last-child { margin-bottom: 0; }
+
+    .cta-libro { background: linear-gradient(135deg, var(--cafe), #8B4513); border-radius: 20px; padding: 40px 32px; text-align: center; margin: 3em 0 0; color: white; }
+    .cta-libro h3 { font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 900; margin-bottom: 12px; color: white; }
+    .cta-libro p em { color: var(--naranja); font-style: italic; font-weight: 600; }
+    .cta-libro p { font-size: 1rem; opacity: 0.88; margin-bottom: 24px; line-height: 1.6; }
+    .btn-amazon { display: inline-block; background: var(--naranja); color: white; padding: 14px 32px; border-radius: 100px; font-family: 'Crimson Text', serif; font-size: 1.05rem; font-weight: 600; text-decoration: none; transition: all 0.3s; box-shadow: 0 6px 24px rgba(224,122,48,0.4); }
+    .btn-amazon:hover { transform: translateY(-2px); background: #c96a20; }
+
+    footer { text-align: center; padding: 32px 24px; background: var(--cafe); color: rgba(255,255,255,0.7); font-size: 0.9rem; }
+    footer a { color: var(--naranja); text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">Bam<span>book</span></a>
+  <a href="index.html" class="nav-back">← Volver al inicio</a>
+</nav>
+
+<div class="hero-blog">
+  <div class="blog-tag">Cultura · Identidad</div>
+  <h1 class="blog-titulo">Cuando un niño se reconoce en un libro, el mundo se vuelve hogar</h1>
+  <p class="blog-byline">Por Kattia Orellana Bustamante · Editorial Bambook</p>
+</div>
+
+<article class="articulo">
+
+  <p>Los niños necesitan verse reflejados en las historias que leen. Necesitan encontrarse en los paisajes, en los nombres, en los colores, en los acentos y en las formas de vivir que conocen. Y esa representación, cuando es honesta, empodera.</p>
+
+  <div class="destacado">
+    Les dice, sin palabras: "Tu historia también vale. Tu origen también importa."
+  </div>
+
+  <p>En Latinoamérica crecimos leyendo cuentos que venían de otros mundos: bosques nevados, castillos europeos, animales que nunca vimos y costumbres que no se parecían a las nuestras. Esos libros también nos dieron magia, sí… pero dejaron un vacío: <strong>¿dónde estábamos nosotros?</strong></p>
+
+  <p>Hoy, por suerte, cada vez más autores y editoriales están recuperando esa voz. Y eso —aunque parezca pequeño— es fundamental para la infancia.</p>
+
+  <h2>1. La identidad se construye desde pequeños</h2>
+  <p>Un niño que se reconoce en un libro siente pertenencia. Siente que su forma de hablar, su familia, su barrio, su comida y su cultura son dignos de ser contados.</p>
+  <p>Cuando un niño latinoamericano ve un personaje que se parece a él, que vive como él, que habla con sus mismas palabras, algo se enciende adentro: <em>"Yo también puedo ser protagonista."</em></p>
+
+  <h2>2. La diversidad no es un concepto: es una experiencia</h2>
+  <p>Latinoamérica es un continente lleno de colores, ritmos, acentos y raíces. Tenemos herencias indígenas, afrodescendientes, europeas y mestizas que conviven todos los días en nuestras calles.</p>
+  <p>Los libros que muestran esta diversidad:</p>
+  <ul>
+    <li>Amplían la mirada</li>
+    <li>Fortalecen la empatía</li>
+    <li>Enseñan respeto</li>
+    <li>Celebran lo propio sin negar lo diferente</li>
+  </ul>
+  <p>Por eso la literatura infantil puede ser un puente entre culturas, nunca un muro.</p>
+
+  <h2>3. La memoria también se hereda</h2>
+  <p>Nuestros niños merecen conocer las historias que nos trajeron hasta aquí: los abuelos que migraron, las luchas sociales, las tradiciones, los juegos, las canciones, los paisajes que nos formaron.</p>
+  <p>Cuando un libro rescata la memoria latinoamericana, no solo entretiene: preserva, honra y transmite.</p>
+
+  <h2>4. Los niños necesitan héroes que hablen como ellos</h2>
+  <p>Durante décadas, casi todos los referentes infantiles llegaban de otros continentes. Pero nuestros niños también necesitan:</p>
+  <ul>
+    <li>Tortuguitas que viven en ríos tropicales</li>
+    <li>Buses viejos que se convierten en mundos mágicos</li>
+    <li>Desiertos cálidos llenos de historias</li>
+    <li>Personajes con nombres que suenan a casa</li>
+  </ul>
+  <p>Los héroes no tienen que vivir en castillos. Pueden vivir en un barrio, en una montaña, en un desierto o en una playa latinoamericana.</p>
+
+  <h2>5. La literatura también es un acto de dignidad</h2>
+  <p>Cuando un niño crece leyendo historias donde su cultura no existe, aprende a verse como "lo otro". Cuando crece leyendo historias donde su cultura florece, aprende a verse con orgullo.</p>
+
+  <div class="destacado">
+    La identidad no se impone: se siembra. Y los libros son una de las semillas más poderosas que existen.
+  </div>
+
+  <div class="cierre">
+    <p>Los niños merecen verse.</p>
+    <p>Los niños merecen sentirse parte.</p>
+    <p>Los niños merecen historias que los abracen.</p>
+  </div>
+
+  <p>Por eso la identidad latinoamericana importa. Porque cuando un niño se reconoce en un libro, el mundo deja de sentirse ajeno… y empieza, por fin, a sentirse hogar.</p>
+
+  <div class="cta-libro">
+    <h3>Historias que abrazan</h3>
+    <p>En <em>La Leyenda de Nairi</em> y todos los libros de Bambook, los niños latinoamericanos encuentran su reflejo. Porque su historia también merece ser contada.</p>
+    <a href="index.html#libros" class="btn-amazon">Ver nuestros libros</a>
+  </div>
+
+</article>
+
+<footer>
+  <p>© 2026 Editorial Bambook · <a href="index.html">Inicio</a> · "Historias que abrazan"</p>
+</footer>
+
+</body>
+</html>
